@@ -1,0 +1,9 @@
+ninja: Entering directory `E:\My Games\Cowboy Runner\.utmp\RelWithDebInfo\4a1t5m51\arm64-v8a'
+[1/8] Building CXX object GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o
+[2/8] Building CXX object GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o
+[3/8] Building CXX object GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o
+[4/8] Building CXX object GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o
+[5/8] Building CXX object GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o
+[6/8] Building CXX object GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o
+[7/8] Building CXX object GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o
+[8/8] Linking CXX shared library "E:\My Games\Cowboy Runner\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\4a1t5m51\obj\arm64-v8a\libgame.so"

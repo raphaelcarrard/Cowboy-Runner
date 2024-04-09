@@ -1,0 +1,801 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1712627324752172, "dur":34541, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712627324786721, "dur":330, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712627324787135, "dur":357, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712627324787638, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/il2cpp.a" }}
+,{ "pid":12345, "tid":0, "ts":1712627324788118, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2j76h6afr9jy.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324788218, "dur":89, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nzavxfpcuxvh.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324788341, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9r1zu7nd3vhu.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324788412, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a0lgfn4b7xy9.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324788502, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fygylctqfcoj.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324789040, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8txidu51wtgl.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324789126, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uhlndj0x3j9j.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324789606, "dur":380, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vnnkjce7s3fp.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324791064, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wxotbuvgrkrc.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324791582, "dur":404, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ht7bkpwmaxw1.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324793190, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ydmnv14gl01y.o" }}
+,{ "pid":12345, "tid":0, "ts":1712627324787513, "dur":7964, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712627324795481, "dur":1284524, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712627326080008, "dur":367, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712627326080531, "dur":3791, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1712627324787967, "dur":7571, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324795542, "dur":558, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324796100, "dur":345, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324796445, "dur":419, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324796864, "dur":4354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324801258, "dur":2459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324803717, "dur":3094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324806873, "dur":438, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppMetadataRegistration.c" }}
+,{ "pid":12345, "tid":1, "ts":1712627324807314, "dur":84, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\Unity\\Hub\\Editor\\2023.2.11f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\emscripten\\emcc.bat" }}
+,{ "pid":12345, "tid":1, "ts":1712627324806812, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kmlssx0ix3rz.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324807551, "dur":120, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.HierarchyCoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1712627324807522, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fvohxjmyymxe.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324807752, "dur":646, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1712627324807737, "dur":692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/73ely8ygksts.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324808468, "dur":801, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324809275, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324808457, "dur":900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u6peo5xkzboo.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324809671, "dur":1254, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__14.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324810936, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324809653, "dur":1377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/neuuxkr4t541.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324811074, "dur":79, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1712627324811060, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3t2frrt0umem.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324811282, "dur":672, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324811963, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324811261, "dur":793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bbjv6v6tiqxl.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324812089, "dur":968, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324813066, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324812073, "dur":1078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/buucj616d86c.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324813192, "dur":455, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324813659, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324813180, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nn7opsc7en33.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324813885, "dur":804, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324814697, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324813865, "dur":930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p667ih7a7hee.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324814962, "dur":758, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__18.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324815741, "dur":112, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324814942, "dur":912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2j76h6afr9jy.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324815942, "dur":121, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InternalAPIEngineBridge.001_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1712627324815922, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8qsen2fq3eix.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324816265, "dur":619, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324816894, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324816247, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x0bki8l5rh8r.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324817016, "dur":221, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.CoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1712627324817005, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uud94whhx9lj.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324817361, "dur":330, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__60.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324817699, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324817338, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/azgtdrqqu6p7.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324817867, "dur":1036, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__20.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324818916, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324817850, "dur":1149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9r1zu7nd3vhu.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324819045, "dur":1097, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324820151, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324819027, "dur":1214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a0m8488m44t1.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324820277, "dur":450, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__33.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324820737, "dur":67, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324820267, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g3q8yls4vrr8.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324820805, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324821006, "dur":1108, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324822123, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324820952, "dur":1256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/47r2qxx08bt3.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324822252, "dur":91, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Configuration_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1712627324822236, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j26fub98qn6q.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324822470, "dur":919, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324823399, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324822423, "dur":1071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wf00qemkm65a.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324823534, "dur":483, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1712627324824023, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627324823522, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ltnahvlllobm.o" }}
+,{ "pid":12345, "tid":1, "ts":1712627324824111, "dur":186001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1712627325010117, "dur":201, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/favicon.ico" }}
+,{ "pid":12345, "tid":1, "ts":1712627325010970, "dur":13253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/favicon.ico" }}
+,{ "pid":12345, "tid":1, "ts":1712627325024240, "dur":1055757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324788063, "dur":7498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324795564, "dur":623, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324796188, "dur":405, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324796594, "dur":490, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324797085, "dur":4116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324801289, "dur":2430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324803719, "dur":3083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324806879, "dur":1614, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__14.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324808508, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324806808, "dur":1787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a1cqmynoe73w.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324808648, "dur":859, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324809525, "dur":118, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324808636, "dur":1008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cnhhc5g32hi9.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324809693, "dur":800, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__42.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324810501, "dur":111, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324809671, "dur":941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2pn3rz3nv8ek.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324810648, "dur":635, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__12.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324811293, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324810634, "dur":753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/odplm9ss7gby.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324811504, "dur":853, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__64.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324812367, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324811485, "dur":985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2hba9ydh7858.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324812586, "dur":878, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Collections.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324813476, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324812566, "dur":1005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2t6lvjzxr603.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324813642, "dur":880, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324814531, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324813623, "dur":1012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bcrvr6t1efhs.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324814726, "dur":709, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__49.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324815445, "dur":109, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324814707, "dur":848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h4p57b28i34z.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324815670, "dur":251, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__12.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324815934, "dur":116, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324815647, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1q6pxvw8mfc3.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324816111, "dur":1405, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324817526, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324816079, "dur":1548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i08jk0cdp7mx.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324817663, "dur":741, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TilemapModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324818413, "dur":93, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324817651, "dur":856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/txv3cm910ow3.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324818551, "dur":142, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1712627324818540, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jj4dh819koo6.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324818811, "dur":491, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__17.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324819312, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324818790, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oj4k5yopju5z.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324819447, "dur":210, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Burst.Unsafe_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1712627324819430, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9h8tylk6n02x.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324819804, "dur":607, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__19.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324820422, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324819781, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g58rd8utaa2i.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324820570, "dur":786, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324821366, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324820550, "dur":907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gb31hmibkr0j.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324821499, "dur":1080, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324822589, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324821485, "dur":1185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/28ubi9cmqiga.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324822721, "dur":901, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1712627324823632, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627324822705, "dur":1021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1o76w3hevlk3.o" }}
+,{ "pid":12345, "tid":2, "ts":1712627324823825, "dur":186279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1712627325010110, "dur":104, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/progress-bar-empty-dark.png" }}
+,{ "pid":12345, "tid":2, "ts":1712627325010894, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/progress-bar-empty-dark.png" }}
+,{ "pid":12345, "tid":2, "ts":1712627325014212, "dur":1065788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324787899, "dur":7590, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324795494, "dur":5685, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324801190, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/15178128866415523681.rsp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324801244, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324801308, "dur":1042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker E:/My Games/Cowboy Runner/Library/Bee/artifacts/unitylinker_ber2.traceevents" }}
+,{ "pid":12345, "tid":3, "ts":1712627324802351, "dur":636, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324803707, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen E:/My Games/Cowboy Runner/Library/Bee/artifacts/il2cpp_conv_cftk.traceevents" }}
+,{ "pid":12345, "tid":3, "ts":1712627324804131, "dur":1281, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324806812, "dur":1032, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324807861, "dur":164, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324806799, "dur":1227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zedn5jgro3c1.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324808082, "dur":470, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324808562, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324808066, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a3yemgqveog6.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324808689, "dur":1129, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324809827, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324808678, "dur":1233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wxotbuvgrkrc.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324809956, "dur":658, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324810623, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324809939, "dur":771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/twc3t9guxto3.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324810814, "dur":62, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1712627324810795, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/15kwz27bmn8s.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324810982, "dur":884, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324811874, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324810964, "dur":997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3z7l6hh249bo.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324812049, "dur":294, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.Physics2DModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1712627324812029, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0rqzs8u1snn4.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324812430, "dur":865, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.InternalAPIEngineBridge.001.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324813304, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324812414, "dur":972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0vxunfwn0jp1.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324813462, "dur":86, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppMetadataUsage.c" }}
+,{ "pid":12345, "tid":3, "ts":1712627324813434, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/odlvqmd851cw.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324813654, "dur":722, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\__Generated.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324814385, "dur":78, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324813638, "dur":826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pt8wjlfaxwpt.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324814501, "dur":101, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Xml_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1712627324814489, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/grxc1lz29ahb.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324814677, "dur":777, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__18.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324815462, "dur":104, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324814663, "dur":903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pro1pe5nnwmf.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324815666, "dur":519, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__24.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324816193, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324815647, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ugud67glwa4w.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324816317, "dur":751, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__35.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324817076, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324816305, "dur":857, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2qedzan02hk7.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324817202, "dur":600, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__48.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324817812, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324817187, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gw5onwlaf1nk.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324818050, "dur":1099, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__20.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324819158, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324818030, "dur":1200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2xzwa0tuj8nv.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324819271, "dur":462, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324819740, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324819256, "dur":585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a46e7qd3ad0c.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324819981, "dur":207, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.InputLegacyModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1712627324819960, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uv6di660m719.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324820336, "dur":1879, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324822224, "dur":108, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324820305, "dur":2027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ru48rwtx0h8o.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324822442, "dur":1057, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__46.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324823508, "dur":93, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324822365, "dur":1236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u8hkn7qe8avl.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324823651, "dur":284, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1712627324823944, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627324823637, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bftzrv7pw8q3.o" }}
+,{ "pid":12345, "tid":3, "ts":1712627324824070, "dur":186023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1712627325010098, "dur":163, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/unity-logo-title-footer.png" }}
+,{ "pid":12345, "tid":3, "ts":1712627325010917, "dur":18183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/unity-logo-title-footer.png" }}
+,{ "pid":12345, "tid":3, "ts":1712627325029125, "dur":1050897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712627324788293, "dur":7303, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712627324795600, "dur":375, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712627324795976, "dur":265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712627324796241, "dur":220, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712627324796461, "dur":494, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712627324796955, "dur":4242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1712627324801211, "dur":52133, "ph":"X", "name": "ComputeLeafInputSignature",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/il2cpp.a" }}
+,{ "pid":12345, "tid":4, "ts":1712627324853370, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a" }}
+,{ "pid":12345, "tid":4, "ts":1712627324853556, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)" }}
+,{ "pid":12345, "tid":4, "ts":1712627324854037, "dur":57981, "ph":"X", "name": "7z",  "args": { "detail":"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked" }}
+,{ "pid":12345, "tid":4, "ts":1712627324912265, "dur":97764, "ph":"X", "name": "GzipMarker",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/Build/index.framework.js.gz" }}
+,{ "pid":12345, "tid":4, "ts":1712627325010097, "dur":66, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/progress-bar-full-light.png" }}
+,{ "pid":12345, "tid":4, "ts":1712627325010648, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/progress-bar-full-light.png" }}
+,{ "pid":12345, "tid":4, "ts":1712627325014301, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/progress-bar-empty-light.png" }}
+,{ "pid":12345, "tid":4, "ts":1712627325016071, "dur":1063980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324787945, "dur":7568, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324795518, "dur":566, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324796085, "dur":267, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324796353, "dur":307, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324796661, "dur":4527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324801266, "dur":2449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324803716, "dur":3089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324806851, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TilemapModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1712627324806807, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hpgdwcy2zss0.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324807068, "dur":87, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.2D.Animation.Runtime_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1712627324807056, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3isvcud2yjuo.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324807249, "dur":395, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreFontEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1712627324807220, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sebtik1diy1y.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324807722, "dur":882, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__19.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324808614, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324807708, "dur":994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nzavxfpcuxvh.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324808746, "dur":842, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324809597, "dur":109, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324808732, "dur":975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/orf9lik2ckvh.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324809750, "dur":785, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324810546, "dur":119, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324809736, "dur":929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/po3qrhz57oot.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324810774, "dur":261, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.SharedInternalsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":5, "ts":1712627324810756, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8r6g17i06mtj.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324811117, "dur":859, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324811994, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324811095, "dur":982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/imxlaywpogha.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324812111, "dur":997, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.HierarchyCoreModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324813117, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324812099, "dur":1093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bz1586day96d.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324813231, "dur":805, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__10.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324814043, "dur":78, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324813220, "dur":901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pxibuss5wdlg.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324814161, "dur":592, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__45.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324814762, "dur":108, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324814146, "dur":724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9sew7xch5mj2.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324814925, "dur":760, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324815695, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324814904, "dur":894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/321esipv5mt0.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324815828, "dur":580, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324816419, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324815816, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ik4xq8241l04.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324816636, "dur":516, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.InputForUIModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324817160, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324816616, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qb9oq3s00lbj.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324817325, "dur":392, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__13.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324817730, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324817309, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/m69dd5a6p3nm.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324817879, "dur":755, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericAdjustorThunkTable.c" }}
+,{ "pid":12345, "tid":5, "ts":1712627324817858, "dur":808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j8xl3bvj1y7a.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324818747, "dur":1299, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__58.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324820054, "dur":92, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324818732, "dur":1414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ny57vjbrh6mf.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324820421, "dur":1672, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324822102, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324820384, "dur":1815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y0ywgqcbbkxk.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324822303, "dur":526, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324822836, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324822280, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kugbltuorrok.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324822954, "dur":626, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__41.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1712627324823590, "dur":110, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627324822938, "dur":762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hakfcqpqsk30.o" }}
+,{ "pid":12345, "tid":5, "ts":1712627324823860, "dur":53, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"GzipMarker C:/Users/rapha/OneDrive/rea de Trabalho/index/Build/index.data.gz" }}
+,{ "pid":12345, "tid":5, "ts":1712627324823989, "dur":186152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1712627325010146, "dur":182, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"PreprocessJS C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/style.css" }}
+,{ "pid":12345, "tid":5, "ts":1712627325011003, "dur":85927, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/style.css" }}
+,{ "pid":12345, "tid":5, "ts":1712627325096953, "dur":983077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324788006, "dur":7540, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324795549, "dur":593, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324796142, "dur":356, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324796498, "dur":392, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324796890, "dur":4316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324801251, "dur":2463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324803714, "dur":3101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324806897, "dur":1369, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1712627324806816, "dur":1484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/e1828rrgw26b.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324808353, "dur":975, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324809338, "dur":110, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324808339, "dur":1109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g1nu45ozjyf5.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324809489, "dur":1008, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324810507, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324809474, "dur":1139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8snis47031rl.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324810703, "dur":1065, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324811776, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324810688, "dur":1171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y6s6k4zsk1vl.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324811899, "dur":389, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__65.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324812296, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324811884, "dur":509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3pvqteufbbno.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324812437, "dur":686, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324813130, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324812422, "dur":781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pnvcfcbvesd5.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324813237, "dur":928, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__16.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324814173, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324813225, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/91hzx9l00vx0.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324814292, "dur":925, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__52.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324815224, "dur":78, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324814279, "dur":1024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9rnm0mt4xdef.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324815436, "dur":544, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324815989, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324815419, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ogja71i73m7d.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324816128, "dur":726, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324816862, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324816117, "dur":826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6k4b7k1uo6b0.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324817102, "dur":418, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__27.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324817528, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324817085, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1jl6l6pe6o8e.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324817659, "dur":627, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__30.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324818295, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324817645, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9zzfjnjbmdnq.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324818451, "dur":888, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__16.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324819348, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324818431, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/330wppasg6tg.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324819486, "dur":790, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324820286, "dur":115, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324819458, "dur":944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vlk6owa2ga4l.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324820566, "dur":811, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__61.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324821386, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324820545, "dur":932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vekht04nxu1q.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324821520, "dur":831, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__18.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324822363, "dur":113, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324821508, "dur":968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fxobtsev67k3.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324822596, "dur":82, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\__Generated_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1712627324822578, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hwsu7no29cd7.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324822747, "dur":233, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1712627324822735, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mrwu89cjln6i.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324823065, "dur":670, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__10.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1712627324823744, "dur":112, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627324823049, "dur":808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f3ilx61cgpj4.o" }}
+,{ "pid":12345, "tid":6, "ts":1712627324823900, "dur":186209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1712627325010113, "dur":79, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/MemoryProfiler.png" }}
+,{ "pid":12345, "tid":6, "ts":1712627325010912, "dur":3553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/MemoryProfiler.png" }}
+,{ "pid":12345, "tid":6, "ts":1712627325014481, "dur":1065585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324788045, "dur":7508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324795557, "dur":497, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324796055, "dur":290, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324796346, "dur":244, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324796591, "dur":399, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324796990, "dur":4232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324801274, "dur":2451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324803726, "dur":3103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324806873, "dur":420, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__21.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324807309, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324806830, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a0lgfn4b7xy9.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324807461, "dur":1216, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Core.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324808687, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324807449, "dur":1336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wb3npommu9bb.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324808898, "dur":746, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__12.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324809652, "dur":110, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324808878, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vspnpbl02p8i.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324809802, "dur":992, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__47.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324810803, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324809788, "dur":1090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vg207m7ccdc1.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324810977, "dur":368, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__8.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324811353, "dur":77, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324810958, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wqmjm5krle94.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324811529, "dur":672, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__9.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324812210, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324811507, "dur":786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8ovv1zwfwgl0.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324812385, "dur":1047, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324813440, "dur":117, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324812358, "dur":1199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h6p71ezoo2ko.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324813628, "dur":67, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextRenderingModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1712627324813609, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2g5ptxx61ocx.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324813782, "dur":989, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324814779, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324813771, "dur":1110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/495o0xvbfvz3.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324814924, "dur":684, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__56.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324815617, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324814905, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h3yv00iwbuzc.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324815752, "dur":380, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.SpriteShapeModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1712627324815734, "dur":429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/be9gwsplpauj.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324816275, "dur":852, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__13.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324817137, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324816256, "dur":979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w0939q1y6rpy.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324817314, "dur":765, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__36.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324818089, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324817295, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n6h1ek1x55vq.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324818215, "dur":401, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__53.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324818632, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324818202, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a072k2921fvu.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324818802, "dur":975, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324819786, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324818783, "dur":1095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/euwc2ur7zzjk.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324819973, "dur":588, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__34.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324820573, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324819952, "dur":708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1iuwev61yf3r.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324820706, "dur":913, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__3.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324821627, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324820695, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h97apl5xn0wk.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324821854, "dur":446, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__31.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324822311, "dur":147, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324821839, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uf33ywx8o1y9.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324822510, "dur":1105, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1712627324823626, "dur":110, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627324822489, "dur":1248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qero3wn9akvt.o" }}
+,{ "pid":12345, "tid":7, "ts":1712627324823819, "dur":186288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1712627325010112, "dur":127, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/unity-logo-light.png" }}
+,{ "pid":12345, "tid":7, "ts":1712627325010907, "dur":18248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/unity-logo-light.png" }}
+,{ "pid":12345, "tid":7, "ts":1712627325029178, "dur":1050860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324788126, "dur":7443, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324795572, "dur":473, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324796046, "dur":343, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324796390, "dur":282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324796672, "dur":4519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324801250, "dur":2460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324803772, "dur":3045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324806854, "dur":841, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__17.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324807725, "dur":158, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324806818, "dur":1065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uhlndj0x3j9j.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324807957, "dur":770, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324808735, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324807928, "dur":890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b9xnxf85uu6q.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324808859, "dur":460, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__5.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324809330, "dur":124, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324808842, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pnvq66byb04m.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324809497, "dur":247, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__37.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324809754, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324809481, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oe2hzzhw97c6.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324809903, "dur":639, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324810553, "dur":112, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324809884, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/m17q1a2jpqs1.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324810791, "dur":303, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppTypeDefinitions.c" }}
+,{ "pid":12345, "tid":8, "ts":1712627324810772, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/krh16h8t73um.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324811194, "dur":1030, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324812233, "dur":119, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324811171, "dur":1181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/30fmrs490yvu.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324812388, "dur":499, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324812896, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324812376, "dur":605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hdshr39du82v.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324813054, "dur":668, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324813731, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324813035, "dur":802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/awoynvbfmsdi.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324813946, "dur":882, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__28.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324814839, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324813928, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2r5m6l6carpu.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324815064, "dur":672, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UI__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324815745, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324815045, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cqyivcalea9z.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324815955, "dur":522, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__32.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324816485, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324815924, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vnnkjce7s3fp.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324816705, "dur":374, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__7.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324817087, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324816686, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9r2rktso02cm.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324817262, "dur":325, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Mono.Security_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1712627324817243, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p1pjkywnqx7f.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324817656, "dur":764, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324818428, "dur":88, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324817644, "dur":873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uw2dowdviaxx.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324818551, "dur":528, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__3.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324819087, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324818539, "dur":630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/eqwh1wcsba73.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324819273, "dur":104, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1712627324819255, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dno224daxf5z.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324819463, "dur":50, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Core_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1712627324819443, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8dq3pw32614e.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324819604, "dur":1032, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324820645, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324819574, "dur":1159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wsr3xs56nfrc.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324820779, "dur":522, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UI__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324821311, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324820763, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x516amoihykj.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324821435, "dur":666, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324822109, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324821417, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l20r58anvt5z.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324822239, "dur":698, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__11.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324822946, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324822224, "dur":808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n5441tcu3eui.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324823074, "dur":323, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UI_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1712627324823058, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nqeb9rwplinr.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324823530, "dur":433, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__10.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1712627324823973, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627324823510, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2p1gmkyw0qiz.o" }}
+,{ "pid":12345, "tid":8, "ts":1712627324824091, "dur":186055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1712627325010152, "dur":191, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/webmemd-icon.png" }}
+,{ "pid":12345, "tid":8, "ts":1712627325010988, "dur":18089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/webmemd-icon.png" }}
+,{ "pid":12345, "tid":8, "ts":1712627325029103, "dur":1050941, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324788171, "dur":7407, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324795582, "dur":267, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324795850, "dur":369, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324796220, "dur":385, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324796606, "dur":377, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324796984, "dur":4219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324801271, "dur":2449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324803721, "dur":3079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324806846, "dur":556, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Mathematics.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324807420, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324806802, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ndngd08oks30.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324807764, "dur":1512, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324809285, "dur":116, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324807729, "dur":1673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0rxw6fvl32q3.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324809460, "dur":862, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__55.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324810331, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324809443, "dur":973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gvefgl2x7rix.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324810488, "dur":104, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System_CodeGen.c" }}
+,{ "pid":12345, "tid":9, "ts":1712627324810464, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r63e14xp9egq.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324810687, "dur":361, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__13.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324811059, "dur":92, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324810662, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9ss91i7pa5mh.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324811206, "dur":1140, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__17.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324812355, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324811186, "dur":1270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h43i2wwhol8e.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324812583, "dur":973, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__23.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324813566, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324812554, "dur":1119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/90qpqy2ntmsd.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324813761, "dur":871, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324814642, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324813743, "dur":986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8up55dkx5xj1.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324814820, "dur":898, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__40.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324815728, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324814754, "dur":1062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g2zyra9roiml.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324816007, "dur":572, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Burst.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324816587, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324815983, "dur":686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ht7bkpwmaxw1.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324816739, "dur":906, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UI.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324817653, "dur":121, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324816722, "dur":1052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ju3u7f3ulej4.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324817831, "dur":806, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__38.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324818649, "dur":118, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324817801, "dur":967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9t55e9vtcwop.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324818807, "dur":216, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericInstDefinitions.c" }}
+,{ "pid":12345, "tid":9, "ts":1712627324818791, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fmzo9vqw3eet.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324819090, "dur":932, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__29.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324820032, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324819078, "dur":1038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n78amvkadf1d.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324820161, "dur":220, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AnimationModule_CodeGen.c" }}
+,{ "pid":12345, "tid":9, "ts":1712627324820147, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b4jkyisha7sn.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324820525, "dur":919, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324821455, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324820509, "dur":1040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x5txn8kf9420.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324821607, "dur":609, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__9.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324822225, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324821590, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vfqwkink7s5k.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324822384, "dur":289, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__22.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324822681, "dur":93, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324822368, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8s685imppkby.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324822816, "dur":619, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324823444, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324822799, "dur":725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/80u0tvjmwmfs.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324823562, "dur":295, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UI__3.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1712627324823865, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627324823550, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ydmnv14gl01y.o" }}
+,{ "pid":12345, "tid":9, "ts":1712627324823966, "dur":186184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1712627325010156, "dur":92, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"PreprocessJS C:/Users/rapha/OneDrive/rea de Trabalho/index/index.html" }}
+,{ "pid":12345, "tid":9, "ts":1712627325010313, "dur":117926, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/index.html" }}
+,{ "pid":12345, "tid":9, "ts":1712627325128254, "dur":951806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324788226, "dur":7360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324795591, "dur":414, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324796006, "dur":313, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324796319, "dur":248, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324796568, "dur":375, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324796943, "dur":4269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324801280, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1712627324801990, "dur":1722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324803713, "dur":3107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324806861, "dur":1127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324808004, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324806825, "dur":1281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lcaws6179i9g.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324808226, "dur":1223, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324809457, "dur":111, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324808206, "dur":1362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sk2y2t8jmpie.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324809687, "dur":747, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__54.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324810442, "dur":77, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324809666, "dur":853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vfbr0bo0436d.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324810565, "dur":365, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324810937, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324810548, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tattlnyu8lvk.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324811087, "dur":1021, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324812116, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324811059, "dur":1148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rx730r3h15s2.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324812274, "dur":531, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__5.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324812812, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324812254, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0dkm1l7ni0z2.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324812939, "dur":691, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Configuration.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324813639, "dur":104, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324812927, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jh31eiohlbcz.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324813780, "dur":712, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__5.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324814500, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324813769, "dur":817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n4enk4xstckn.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324814622, "dur":1048, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324815683, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324814610, "dur":1176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d3lr4dose4pe.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324815835, "dur":333, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.GridModule_CodeGen.c" }}
+,{ "pid":12345, "tid":10, "ts":1712627324815814, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dg7s5bb2mygw.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324816307, "dur":131, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.InputForUIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":10, "ts":1712627324816276, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qk941f6a0lfz.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324816546, "dur":1033, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__57.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324817590, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324816527, "dur":1163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2i2jgaxteibw.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324817691, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324817938, "dur":719, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Mono.Security.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324818667, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324817921, "dur":840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pcztva8bgi7c.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324818796, "dur":1160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324819966, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324818784, "dur":1276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dlv80gyd8vl1.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324820212, "dur":612, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__11.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324820835, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324820175, "dur":750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/admz9162z1wz.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324820968, "dur":1351, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__43.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324822329, "dur":130, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324820951, "dur":1512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n5qr78hlywq3.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324822520, "dur":556, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324823085, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324822489, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tvfla5pq5qin.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324823204, "dur":448, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1712627324823668, "dur":134, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627324823186, "dur":617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/38mm3tck42j8.o" }}
+,{ "pid":12345, "tid":10, "ts":1712627324823834, "dur":186261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1712627325010104, "dur":190, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/progress-bar-full-dark.png" }}
+,{ "pid":12345, "tid":10, "ts":1712627325010952, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/progress-bar-full-dark.png" }}
+,{ "pid":12345, "tid":10, "ts":1712627325014292, "dur":14930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/unity-logo-dark.png" }}
+,{ "pid":12345, "tid":10, "ts":1712627325029237, "dur":1050775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324788366, "dur":7242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324795612, "dur":465, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324796077, "dur":435, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324796513, "dur":528, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324797041, "dur":4154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324801285, "dur":2424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324803710, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ClassRegistrationGenerator E:/My Games/Cowboy Runner/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324803848, "dur":2961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324806845, "dur":261, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericMethodPointerTable.c" }}
+,{ "pid":12345, "tid":11, "ts":1712627324806810, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j8mk4sz3u0mt.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324807268, "dur":406, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.PropertiesModule_CodeGen.c" }}
+,{ "pid":12345, "tid":11, "ts":1712627324807242, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mljs7vkirp5s.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324807735, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324807830, "dur":1478, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__62.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324809316, "dur":112, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324807813, "dur":1615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gun589il0ida.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324809512, "dur":633, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__16.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324810153, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324809496, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gwj2hhgjkjrz.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324810344, "dur":1148, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Burst.Unsafe.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324811499, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324810325, "dur":1260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pdki640wj16y.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324811625, "dur":1094, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324812726, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324811613, "dur":1187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jaugsjjz0cfa.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324812862, "dur":387, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324813258, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324812840, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ax3kbswqpvya.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324813488, "dur":256, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.IMGUIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":11, "ts":1712627324813470, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ybq0rhdgghkq.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324813897, "dur":684, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__15.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324814591, "dur":93, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324813879, "dur":805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iox89fwudiix.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324814734, "dur":634, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__39.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324815375, "dur":71, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324814719, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u98tuiarfk08.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324815500, "dur":322, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Collections_CodeGen.c" }}
+,{ "pid":12345, "tid":11, "ts":1712627324815477, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2ax97g054rc3.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324816009, "dur":200, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.PhysicsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":11, "ts":1712627324815986, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uo4p3ycbmh1p.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324816305, "dur":1184, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324817496, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324816287, "dur":1315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f3lm56jzdx97.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324817683, "dur":744, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324818435, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324817661, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mz7r5end77c2.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324818580, "dur":951, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__14.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324819541, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324818568, "dur":1067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hgdsp0fw9f1h.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324819672, "dur":559, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__44.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324820244, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324819659, "dur":681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/odb8royj2y7i.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324820396, "dur":116, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericMethodDefinitions.c" }}
+,{ "pid":12345, "tid":11, "ts":1712627324820363, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/grjjwqdx8zg0.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324820577, "dur":229, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__6.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324820815, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324820565, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ocz34jerxe12.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324821016, "dur":1195, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324822222, "dur":252, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324820983, "dur":1491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s5rkl7jg579h.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324822511, "dur":995, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__15.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1712627324823517, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324822499, "dur":1110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8txidu51wtgl.o" }}
+,{ "pid":12345, "tid":11, "ts":1712627324823609, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324823775, "dur":29937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627324853768, "dur":73, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"GzipMarker C:/Users/rapha/OneDrive/rea de Trabalho/index/Build/index.wasm.gz" }}
+,{ "pid":12345, "tid":11, "ts":1712627324853847, "dur":156254, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1712627325010110, "dur":64, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"PreprocessJS C:/Users/rapha/OneDrive/rea de Trabalho/index/Build/index.loader.js" }}
+,{ "pid":12345, "tid":11, "ts":1712627325010236, "dur":1069691, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/Build/index.loader.js" }}
+,{ "pid":12345, "tid":12, "ts":1712627324788442, "dur":7176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324795618, "dur":408, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324796027, "dur":342, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324796369, "dur":256, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324796625, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324796944, "dur":4264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324801261, "dur":2446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324803709, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ICallRegistrationGenerator E:/My Games/Cowboy Runner/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324803953, "dur":2860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324806832, "dur":1077, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__50.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324807924, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324806813, "dur":1217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n4zh0xy8qnlg.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324808062, "dur":383, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324808452, "dur":87, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324808050, "dur":489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6h4flipkyhhj.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324808582, "dur":874, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324809464, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324808567, "dur":1000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u4wjepxs1v5i.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324809679, "dur":506, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__4.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324810194, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324809650, "dur":623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fygylctqfcoj.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324810316, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":12, "ts":1712627324810306, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4ep4c666uu00.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324810478, "dur":538, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.UIElementsModule__1.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324811027, "dur":107, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324810467, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hckh6sm6xjjp.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324811171, "dur":618, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__15.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324811796, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324811159, "dur":712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vgge271lhvfg.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324811947, "dur":62, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":12, "ts":1712627324811898, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iuyx3hrqw5xa.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324812141, "dur":381, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__21.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324812531, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324812102, "dur":512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nd3kq97rmwze.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324812704, "dur":705, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\GenericMethods__8.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324813417, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324812685, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7gbfhkghse4k.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324813595, "dur":561, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__63.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324814164, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324813577, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h27ltpzj4kup.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324814302, "dur":164, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.Burst_CodeGen.c" }}
+,{ "pid":12345, "tid":12, "ts":1712627324814290, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tb55fv0nz90w.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324814540, "dur":497, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__26.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324815045, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324814523, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g4hi6wbh30wv.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324815231, "dur":863, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Unity.2D.Animation.Runtime.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324816102, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324815211, "dur":980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r0mew4kst2uu.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324816234, "dur":439, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\UnityEngine.AudioModule_CodeGen.c" }}
+,{ "pid":12345, "tid":12, "ts":1712627324816217, "dur":487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1aguh9qjqinx.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324816825, "dur":592, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\System.Xml.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324817425, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324816806, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gqj46mz4mphf.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324817548, "dur":936, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__51.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324818493, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324817532, "dur":1064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ockykdf7up2v.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324818633, "dur":1007, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__25.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324819649, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324818621, "dur":1124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fwx1lhvizyfg.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324819814, "dur":407, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__59.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324820232, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324819793, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o6pogzrpl83u.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324820479, "dur":812, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324821299, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324820447, "dur":934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mj0z7th8n9yt.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324821432, "dur":921, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324822365, "dur":134, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324821420, "dur":1079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ilcybjqcyakb.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324822538, "dur":139, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Assembly-CSharp_CodeGen.c" }}
+,{ "pid":12345, "tid":12, "ts":1712627324822526, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ggz6oy8b816r.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324822823, "dur":1020, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"E:\\My Games\\Cowboy Runner\\Library\\Bee\\artifacts\\WebGL\\il2cppOutput\\cpp\\Generics__4.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1712627324823852, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627324822805, "dur":1128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2obz4ujvqo83.o" }}
+,{ "pid":12345, "tid":12, "ts":1712627324823953, "dur":186144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1712627325010103, "dur":179, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/fullscreen-button.png" }}
+,{ "pid":12345, "tid":12, "ts":1712627325010931, "dur":3286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rapha/OneDrive/rea de Trabalho/index/TemplateData/fullscreen-button.png" }}
+,{ "pid":12345, "tid":12, "ts":1712627325014232, "dur":1065771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1712627326089211, "dur":1686, "ph":"X", "name": "ProfilerWriteOutput" }
+,

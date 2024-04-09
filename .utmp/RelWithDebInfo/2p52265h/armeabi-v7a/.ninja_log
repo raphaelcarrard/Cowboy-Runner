@@ -1,0 +1,9 @@
+# ninja log v5
+17	4276	7343321977379078	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	63d5f6cb462de5ea
+21	4314	7343321977755706	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	671eb045862a2b93
+26	4432	7343321978939089	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	a0bf87aace835cf0
+5	4438	7343321979006431	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	2b92ddb3db29f3ec
+0	4455	7343321979207481	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	32ede32d311ec99d
+13	4590	7343321980562545	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	5867142af15f3705
+8	4704	7343321981681817	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	7227c101c61100a
+4704	4908	7343321983183722	E:/My Games/Cowboy Runner/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2p52265h/obj/armeabi-v7a/libgame.so	9ccbcb92d6ee6f02
