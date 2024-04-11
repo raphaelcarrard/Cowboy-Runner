@@ -7,7 +7,6 @@ public class GenerateGrounds : MonoBehaviour {
 	public GameObject groundGenerator;
 	public Transform generatePoint;
 	public float distance;
-	//private float width;
 
 	public float distanceBetweenMin;
 	public float distanceBetweenMax;
