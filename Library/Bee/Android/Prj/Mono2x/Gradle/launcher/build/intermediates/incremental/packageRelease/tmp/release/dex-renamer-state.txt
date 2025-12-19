@@ -1,4 +1,0 @@
-#Mon Apr 08 23:16:56 BRT 2024
-base.0=E\:\\My Games\\Cowboy Runner\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

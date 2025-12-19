@@ -1,1 +1,0 @@
-# Empty since Optmized Frame Pacing is disabled
